@@ -481,9 +481,9 @@
    inkscape:pagecheckerboard="0"
    showgrid="false"
    width="720px"
-   inkscape:zoom="0.64"
-   inkscape:cx="394.53125"
-   inkscape:cy="422.65625"
+   inkscape:zoom="1.28"
+   inkscape:cx="365.625"
+   inkscape:cy="164.45313"
    inkscape:window-width="1920"
    inkscape:window-height="1001"
    inkscape:window-x="-9"
@@ -1684,14 +1684,7 @@
    class="st505"
    points="-3201.3,3963.2 -3201.3,4129.5 -410,4129.5 -410,3626.8 -3201.3,3626.8 "
    id="polygon5169"
-   transform="matrix(0.25883336,0,0,0.2278911,829.81043,-539.50447)" /><rect
-   x="1.2071757"
-   y="245.6716"
-   class="st503"
-   width="720.25439"
-   height="63.946247"
-   id="rect5171"
-   style="stroke-width:0.242492" /><g
+   transform="matrix(0.25883336,0,0,0.2278911,829.81043,-539.50447)" /><g
    id="g5211"
    transform="matrix(0.25165722,0,0,0.2278911,806.83743,-539.50447)">
 		<polygon
@@ -3158,7 +3151,7 @@
 		</g></g></g>
 <g
    id="g14127"
-   transform="matrix(0.64364673,0,0,0.55727639,-347.17075,43.649563)"><ellipse
+   transform="matrix(0.51004818,0,0,0.55727639,-563.49751,49.863392)"><ellipse
      class="st973"
      cx="1256.3193"
      cy="313.04437"
@@ -3184,7 +3177,7 @@
 
 <g
    id="g14238"
-   transform="matrix(0.64364673,0,0,0.55727639,-300.9145,58.181418)"><ellipse
+   transform="matrix(0.49152242,0,0,0.52106225,-516.5063,116.04183)"><ellipse
      class="st973"
      cx="1335.9366"
      cy="208.30626"
@@ -3315,7 +3308,7 @@
 	</g></g>
 <g
    id="g14270"
-   transform="matrix(0.64364673,0,0,0.55727639,-253.03359,-37.404727)"><ellipse
+   transform="matrix(0.51027337,0,0,0.55727639,-519.59551,-24.801372)"><ellipse
      class="st973"
      cx="1415.1466"
      cy="447.32593"
