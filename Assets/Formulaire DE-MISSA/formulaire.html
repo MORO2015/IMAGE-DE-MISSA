@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="titre-service mb-2 mt-3">Lavage automobile</h3>
+      <div class="container">
+        <h6>Description du service ici</h6>
+      </div>
+      <p class="texte-accroch">
+        Passez à une demande de prestataire en remplissant le formulaire ci
+        dessous
+      </p>
+      <div class="container formulaire">
+        <form action="">
+          <div class="row">
+            <h6 class="titre">Information sur le demandeur</h6>
+          </div>
+          <!-- definition des champs -->
+          <div class="form__group field mb-2">
+            <input
+              required=""
+              placeholder="Name"
+              class="form__field"
+              type="input"
+            />
+            <label class="form__label" for="name">Nom complet*</label>
+          </div>
+          <div class="form__group field mb-2">
+            <input
+              required=""
+              placeholder="Name"
+              class="form__field"
+              type="number"
+            />
+            <label class="form__label" for="number">Numéro disponible*</label>
+          </div>
+          <div class="form__group field">
+            <input
+              required=""
+              placeholder="Name"
+              class="form__field"
+              type="email"
+            />
+            <label class="form__label" for="email">Email</label>
+          </div>
+
+          <div class="row">
+            <h6 class="titre mt-3">Détail sur la prestation</h6>
+          </div>
+          <div class="form__group field">
+            <input
+              required=""
+              placeholder="Name"
+              class="form__field"
+              type="text"
+            />
+            <label class="form__label" for="name">Lieu de la prestation*</label>
+          </div>
+          <div class="row mt-3">
+            <label for="date_heure" class="mb-3">Date et heure :</label>
+            <div class="col text-center">
+              <input
+                type="date"
+                id="start"
+                name="trip-start"
+                value=""
+                min="2023-01-01"
+                max="2023-12-31"
+                required
+              />
+            </div>
+            <div class="col text-center">
+              <input
+                type="time"
+                id="appt"
+                name="appt"
+                min="08:00"
+                max="17:00"
+                required
+              />
+            </div>
+          </div>
+          <p class="text mt-3">
+            Vous acceptez les
+            <a href="http://" class="link-color"
+              >Conditions général d'utilisation</a
+            >
+            de nos servicesen cliquant sur demander
+          </p>
+        </form>
+      </div>
+      <button
+        type="submit"
+        class="container mt-3 btn pt-2 pb-2 text-white w-50"
+      >
+        Demander
+      </button>
+    </div>
+  </body>
+</html>
